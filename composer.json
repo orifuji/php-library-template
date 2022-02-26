@@ -1,0 +1,19 @@
+{
+    "name": "yiegle/enter-the-library-name",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yiegle\\EnterTheLibraryName\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yiegle",
+            "email": "aquila.minakami@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
