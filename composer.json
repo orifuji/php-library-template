@@ -17,5 +17,9 @@
         "phpunit/phpunit": "^9.5",
         "vimeo/psalm": "^4.21",
         "friendsofphp/php-cs-fixer": "^3.6"
+    },
+    "scripts": {
+        "fix": "./vendor/bin/php-cs-fixer fix ./src",
+        "fix-dry": "./vendor/bin/php-cs-fixer fix --dry-run --diff ./src"
     }
 }
