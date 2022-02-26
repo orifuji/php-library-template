@@ -20,6 +20,7 @@
         "brainmaestro/composer-git-hooks": "^2.8"
     },
     "scripts": {
+        "test": "./vendor/bin/phpunit",
         "fix": "./vendor/bin/phpcbf --standard=PSR12",
         "fix-dry": "./vendor/bin/phpcs --standard=PSR12",
         "psalm": "./vendor/bin/psalm",
