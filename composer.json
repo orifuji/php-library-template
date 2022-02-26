@@ -20,6 +20,7 @@
     },
     "scripts": {
         "fix": "./vendor/bin/php-cs-fixer fix ./src",
-        "fix-dry": "./vendor/bin/php-cs-fixer fix --dry-run --diff ./src"
+        "fix-dry": "./vendor/bin/php-cs-fixer fix --dry-run --diff ./src",
+        "psalm": "./vendor/bin/psalm"
     }
 }
